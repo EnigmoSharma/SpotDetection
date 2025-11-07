@@ -1,0 +1,30 @@
+# 🐍 Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+*.sqlite3
+
+# 🧪 Virtual Environments
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# 📦 Package / Build files
+build/
+dist/
+*.egg-info/
+*.egg
+
+# 🧰 IDE / Editor settings
+.vscode/
+.idea/
+*.swp
+
+# 🗑️ OS files
+.DS_Store
+Thumbs.db
