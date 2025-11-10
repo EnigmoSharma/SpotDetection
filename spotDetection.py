@@ -10,9 +10,9 @@ from datetime import datetime, timezone
 # ==============================
 # 🔗 Supabase Configuration
 # ==============================
-SUPABASE_URL = "https://qkfqxemmuzdnbbriecnq.supabase.co"
-SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFrZnF4ZW1tdXpkbmJicmllY25xIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjExMjgyNTcsImV4cCI6MjA3NjcwNDI1N30.OFjfbDCTocSm4TH-NuDYX03hQg-CsOD93lT0DdG0dc4"
-TABLE_NAME = "sensor_data"
+SUPABASE_URL = "Your_SUPABASE_URL"
+SUPABASE_KEY = "Your_SUPABASE_KEY"
+TABLE_NAME = "Put_Table_Name_Of_SupaBase"
 
 
 def send_status_to_supabase(sensor_id, occupied):
